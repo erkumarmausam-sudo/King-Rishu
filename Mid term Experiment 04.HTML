@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 align="center">Hotel Room Booking Form</h1>
+    <form action="#" method="post"align="center">
+        <!-- Name --> 
+         <label for="fullname">Full Name:</label>
+         <input type="text"id="fullname"name="fullname" required>
+         <br><br>
+         <!-- Email -->
+          <label for="email">Email:</label>
+          <input type="text email id"="email"name="email"required>
+          <br><br>
+          <!--phone -->
+          <label for=" phone no">Phone No:</label>
+          <input type="text phone no"="phone"name="phone"required>
+          <br><br>
+          <!--check-in & check-out-->
+          <lable for="checkin">Check-in Date:</lable>
+          <input type="date"id="checkin"name="checkin"required>
+          <br><br>
+           
+          <label for="checkout">Check-Out Date:</label>
+          <input type="date"id="checkout"name="checkout"required>
+          <br><br>
+
+          <!-- Room Type -->
+           <label for="room type">Room Type:</label>
+           <select id="room" name="room">
+            <option value="single">single room</option>
+            <option value="double">Double Room</option>
+            <option value="deluxe"> Deluxe</option>
+            <option value="Suite">Suite</option>
+           </select>
+           <br><br>
+
+           <!-- Number of Guests -->
+            <label for="guests">Number of Guest:</label>
+            <input type="number"id="guests" name="guests" min="1" max="10">
+            <br><br>
+
+            <!-- Special Requests -->
+             <label for="requests">Special Requests:</label>
+             <br>
+             <textarea id="requests" name="requests" rows="5" cols="50"></textarea>
+             <br><br>
+             <!-- Butoons -->
+              <input type="submit" value="Book Now">
+              <input type="reset" value="Reset Form">
+
+
+
+
+
+
+        </form>
+
+    
+</body>
+</html>
