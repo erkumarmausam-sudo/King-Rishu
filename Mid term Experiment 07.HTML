@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Navigation</title>
+    <style>
+       
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .navbar-container {
+            border: 1px solid #ccc;
+            width: 80%; 
+            margin: 0 auto; 
+            background-color: white; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-header {
+            background-color: #d3d3d3; 
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .navbar-header span {
+            font-weight: bold;
+        }
+
+        .nav-row {
+            padding: 10px;
+            display: flex; 
+            gap: 10px; 
+        }
+
+        .nav-button {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            font-size: 0.9em;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        
+        .row-one .nav-button {
+            background-color: #b0e0e6; 
+        }
+
+        .row-one .nav-button:hover {
+            background-color: #87ceeb; 
+        }
+
+       
+        .row-two .nav-button {
+            background-color: #90ee90; 
+        }
+
+        .row-two .nav-button:hover {
+            background-color: #7cbb7c; 
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar-container">
+        
+        <div class="navbar-header">
+            My <span>Website</span> Navigation
+        </div>
+
+        <div class="nav-row row-one">
+            <a href="#" class="nav-button">Home</a>
+            <a href="#" class="nav-button">About</a>
+            <a href="#" class="nav-button">Services</a>
+            <a href="#" class="nav-button">Contact</a>
+        </div>
+
+        <div class="nav-row row-two">
+            <a href="#" class="nav-button">Dashboard</a>
+            <a href="#" class="nav-button">Profile</a>
+            <a href="#" class="nav-button">Messages</a>
+            <a href="#" class="nav-button">Logout</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+    
+</body>
+</html>
