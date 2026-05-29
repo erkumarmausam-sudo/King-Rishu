@@ -16,7 +16,19 @@
     max-width:1100px;
     margin:auto;
 ">
-
+<div style="@media  (max-width: 650px) {
+            .main {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto auto;
+                grid-template-rows: auto;
+            }
+        }
+        @media (max-width: 400px) {
+            .main {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+            }
+        }">
     <div style="
         background:#fff;
         padding:20px;
@@ -94,7 +106,7 @@
     </div>
 
 </div>
-
+</div>
  <hr>
     <p align="center"><i>
             Made by:-<br>
